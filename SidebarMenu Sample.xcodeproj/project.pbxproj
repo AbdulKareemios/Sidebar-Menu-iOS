@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE515681A64E04900837D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE515671A64E04900837D3E /* Foundation.framework */; };
+		BEE5156A1A64E04900837D3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE515691A64E04900837D3E /* CoreGraphics.framework */; };
+		BEE5156C1A64E04900837D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5156B1A64E04900837D3E /* UIKit.framework */; };
+		BEE515721A64E04900837D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE515701A64E04900837D3E /* InfoPlist.strings */; };
+		BEE515741A64E04900837D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515731A64E04900837D3E /* main.m */; };
+		BEE515781A64E04900837D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515771A64E04900837D3E /* AppDelegate.m */; };
+		BEE5157A1A64E04900837D3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE515791A64E04900837D3E /* Images.xcassets */; };
+		BEE515811A64E04A00837D3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE515801A64E04A00837D3E /* XCTest.framework */; };
+		BEE515821A64E04A00837D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE515671A64E04900837D3E /* Foundation.framework */; };
+		BEE515831A64E04A00837D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5156B1A64E04900837D3E /* UIKit.framework */; };
+		BEE5158B1A64E04A00837D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE515891A64E04A00837D3E /* InfoPlist.strings */; };
+		BEE5158D1A64E04A00837D3E /* SidebarMenu_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5158C1A64E04A00837D3E /* SidebarMenu_SampleTests.m */; };
+		BEE515991A64E07200837D3E /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515971A64E07200837D3E /* SideBarViewController.m */; };
+		BEE5159A1A64E07200837D3E /* SideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE515981A64E07200837D3E /* SideBarViewController.xib */; };
+		BEE5159E1A64E7D000837D3E /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5159C1A64E7D000837D3E /* AboutUsViewController.m */; };
+		BEE5159F1A64E7D000837D3E /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE5159D1A64E7D000837D3E /* AboutUsViewController.xib */; };
+		BEE515A31A64E82200837D3E /* TopBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515A11A64E82200837D3E /* TopBarViewController.m */; };
+		BEE515A41A64E82200837D3E /* TopBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE515A21A64E82200837D3E /* TopBarViewController.xib */; };
+		BEE515AA1A64EF8000837D3E /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515A91A64EF8000837D3E /* SingletonClass.m */; };
+		BEE515AE1A6500E600837D3E /* TentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515AC1A6500E600837D3E /* TentsViewController.m */; };
+		BEE515AF1A6500E600837D3E /* TentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE515AD1A6500E600837D3E /* TentsViewController.xib */; };
+		BEE515B41A65084300837D3E /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515B21A65084300837D3E /* ReportsViewController.m */; };
+		BEE515B51A65084300837D3E /* ReportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE515B31A65084300837D3E /* ReportsViewController.xib */; };
+		BEE515B91A6510CF00837D3E /* GeographicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515B71A6510CF00837D3E /* GeographicViewController.m */; };
+		BEE515BA1A6510CF00837D3E /* GeographicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE515B81A6510CF00837D3E /* GeographicViewController.xib */; };
+		BEE515BC1A65112000837D3E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE515BB1A65112000837D3E /* MapKit.framework */; };
+		BEE515C01A651CEE00837D3E /* AboutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE515BE1A651CEE00837D3E /* AboutDetailsViewController.m */; };
+		BEE515C11A651CEE00837D3E /* AboutDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE515BF1A651CEE00837D3E /* AboutDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEE515841A64E04A00837D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE5155C1A64E04900837D3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE515631A64E04900837D3E;
+			remoteInfo = "SidebarMenu Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEE515641A64E04900837D3E /* SidebarMenu Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SidebarMenu Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE515671A64E04900837D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEE515691A64E04900837D3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEE5156B1A64E04900837D3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEE5156F1A64E04900837D3E /* SidebarMenu Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SidebarMenu Sample-Info.plist"; sourceTree = "<group>"; };
+		BEE515711A64E04900837D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE515731A64E04900837D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE515751A64E04900837D3E /* SidebarMenu Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu Sample-Prefix.pch"; sourceTree = "<group>"; };
+		BEE515761A64E04900837D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEE515771A64E04900837D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEE515791A64E04900837D3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEE5157F1A64E04A00837D3E /* SidebarMenu SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SidebarMenu SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE515801A64E04A00837D3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BEE515881A64E04A00837D3E /* SidebarMenu SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SidebarMenu SampleTests-Info.plist"; sourceTree = "<group>"; };
+		BEE5158A1A64E04A00837D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE5158C1A64E04A00837D3E /* SidebarMenu_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarMenu_SampleTests.m; sourceTree = "<group>"; };
+		BEE515961A64E07200837D3E /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		BEE515971A64E07200837D3E /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		BEE515981A64E07200837D3E /* SideBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarViewController.xib; sourceTree = "<group>"; };
+		BEE5159B1A64E7D000837D3E /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		BEE5159C1A64E7D000837D3E /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		BEE5159D1A64E7D000837D3E /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		BEE515A01A64E82200837D3E /* TopBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarViewController.h; sourceTree = "<group>"; };
+		BEE515A11A64E82200837D3E /* TopBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarViewController.m; sourceTree = "<group>"; };
+		BEE515A21A64E82200837D3E /* TopBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopBarViewController.xib; sourceTree = "<group>"; };
+		BEE515A81A64EF8000837D3E /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingletonClass.h; path = ../SingletonClass.h; sourceTree = "<group>"; };
+		BEE515A91A64EF8000837D3E /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonClass.m; path = ../SingletonClass.m; sourceTree = "<group>"; };
+		BEE515AB1A6500E600837D3E /* TentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TentsViewController.h; sourceTree = "<group>"; };
+		BEE515AC1A6500E600837D3E /* TentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TentsViewController.m; sourceTree = "<group>"; };
+		BEE515AD1A6500E600837D3E /* TentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TentsViewController.xib; sourceTree = "<group>"; };
+		BEE515B11A65084300837D3E /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
+		BEE515B21A65084300837D3E /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
+		BEE515B31A65084300837D3E /* ReportsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportsViewController.xib; sourceTree = "<group>"; };
+		BEE515B61A6510CF00837D3E /* GeographicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeographicViewController.h; sourceTree = "<group>"; };
+		BEE515B71A6510CF00837D3E /* GeographicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeographicViewController.m; sourceTree = "<group>"; };
+		BEE515B81A6510CF00837D3E /* GeographicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeographicViewController.xib; sourceTree = "<group>"; };
+		BEE515BB1A65112000837D3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BEE515BD1A651CEE00837D3E /* AboutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutDetailsViewController.h; sourceTree = "<group>"; };
+		BEE515BE1A651CEE00837D3E /* AboutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutDetailsViewController.m; sourceTree = "<group>"; };
+		BEE515BF1A651CEE00837D3E /* AboutDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE515611A64E04900837D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE515BC1A65112000837D3E /* MapKit.framework in Frameworks */,
+				BEE5156A1A64E04900837D3E /* CoreGraphics.framework in Frameworks */,
+				BEE5156C1A64E04900837D3E /* UIKit.framework in Frameworks */,
+				BEE515681A64E04900837D3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5157C1A64E04A00837D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE515811A64E04A00837D3E /* XCTest.framework in Frameworks */,
+				BEE515831A64E04A00837D3E /* UIKit.framework in Frameworks */,
+				BEE515821A64E04A00837D3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE5155B1A64E04900837D3E = {
+			isa = PBXGroup;
+			children = (
+				BEE5156D1A64E04900837D3E /* SidebarMenu Sample */,
+				BEE515861A64E04A00837D3E /* SidebarMenu SampleTests */,
+				BEE515661A64E04900837D3E /* Frameworks */,
+				BEE515651A64E04900837D3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE515651A64E04900837D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE515641A64E04900837D3E /* SidebarMenu Sample.app */,
+				BEE5157F1A64E04A00837D3E /* SidebarMenu SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE515661A64E04900837D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE515BB1A65112000837D3E /* MapKit.framework */,
+				BEE515671A64E04900837D3E /* Foundation.framework */,
+				BEE515691A64E04900837D3E /* CoreGraphics.framework */,
+				BEE5156B1A64E04900837D3E /* UIKit.framework */,
+				BEE515801A64E04A00837D3E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE5156D1A64E04900837D3E /* SidebarMenu Sample */ = {
+			isa = PBXGroup;
+			children = (
+				BEE515761A64E04900837D3E /* AppDelegate.h */,
+				BEE515771A64E04900837D3E /* AppDelegate.m */,
+				BEE515961A64E07200837D3E /* SideBarViewController.h */,
+				BEE515971A64E07200837D3E /* SideBarViewController.m */,
+				BEE515981A64E07200837D3E /* SideBarViewController.xib */,
+				BEE515A01A64E82200837D3E /* TopBarViewController.h */,
+				BEE515A11A64E82200837D3E /* TopBarViewController.m */,
+				BEE515A21A64E82200837D3E /* TopBarViewController.xib */,
+				BEE515B01A65081200837D3E /* Side Bar Controllers */,
+				BEE515A81A64EF8000837D3E /* SingletonClass.h */,
+				BEE515A91A64EF8000837D3E /* SingletonClass.m */,
+				BEE515791A64E04900837D3E /* Images.xcassets */,
+				BEE5156E1A64E04900837D3E /* Supporting Files */,
+			);
+			path = "SidebarMenu Sample";
+			sourceTree = "<group>";
+		};
+		BEE5156E1A64E04900837D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5156F1A64E04900837D3E /* SidebarMenu Sample-Info.plist */,
+				BEE515701A64E04900837D3E /* InfoPlist.strings */,
+				BEE515731A64E04900837D3E /* main.m */,
+				BEE515751A64E04900837D3E /* SidebarMenu Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE515861A64E04A00837D3E /* SidebarMenu SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5158C1A64E04A00837D3E /* SidebarMenu_SampleTests.m */,
+				BEE515871A64E04A00837D3E /* Supporting Files */,
+			);
+			path = "SidebarMenu SampleTests";
+			sourceTree = "<group>";
+		};
+		BEE515871A64E04A00837D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE515881A64E04A00837D3E /* SidebarMenu SampleTests-Info.plist */,
+				BEE515891A64E04A00837D3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE515B01A65081200837D3E /* Side Bar Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5159B1A64E7D000837D3E /* AboutUsViewController.h */,
+				BEE5159C1A64E7D000837D3E /* AboutUsViewController.m */,
+				BEE5159D1A64E7D000837D3E /* AboutUsViewController.xib */,
+				BEE515BD1A651CEE00837D3E /* AboutDetailsViewController.h */,
+				BEE515BE1A651CEE00837D3E /* AboutDetailsViewController.m */,
+				BEE515BF1A651CEE00837D3E /* AboutDetailsViewController.xib */,
+				BEE515AB1A6500E600837D3E /* TentsViewController.h */,
+				BEE515AC1A6500E600837D3E /* TentsViewController.m */,
+				BEE515AD1A6500E600837D3E /* TentsViewController.xib */,
+				BEE515B11A65084300837D3E /* ReportsViewController.h */,
+				BEE515B21A65084300837D3E /* ReportsViewController.m */,
+				BEE515B31A65084300837D3E /* ReportsViewController.xib */,
+				BEE515B61A6510CF00837D3E /* GeographicViewController.h */,
+				BEE515B71A6510CF00837D3E /* GeographicViewController.m */,
+				BEE515B81A6510CF00837D3E /* GeographicViewController.xib */,
+			);
+			name = "Side Bar Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE515631A64E04900837D3E /* SidebarMenu Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE515901A64E04A00837D3E /* Build configuration list for PBXNativeTarget "SidebarMenu Sample" */;
+			buildPhases = (
+				BEE515601A64E04900837D3E /* Sources */,
+				BEE515611A64E04900837D3E /* Frameworks */,
+				BEE515621A64E04900837D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SidebarMenu Sample";
+			productName = "SidebarMenu Sample";
+			productReference = BEE515641A64E04900837D3E /* SidebarMenu Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE5157E1A64E04A00837D3E /* SidebarMenu SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE515931A64E04A00837D3E /* Build configuration list for PBXNativeTarget "SidebarMenu SampleTests" */;
+			buildPhases = (
+				BEE5157B1A64E04A00837D3E /* Sources */,
+				BEE5157C1A64E04A00837D3E /* Frameworks */,
+				BEE5157D1A64E04A00837D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE515851A64E04A00837D3E /* PBXTargetDependency */,
+			);
+			name = "SidebarMenu SampleTests";
+			productName = "SidebarMenu SampleTests";
+			productReference = BEE5157F1A64E04A00837D3E /* SidebarMenu SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE5155C1A64E04900837D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MapletMobile;
+				TargetAttributes = {
+					BEE5157E1A64E04A00837D3E = {
+						TestTargetID = BEE515631A64E04900837D3E;
+					};
+				};
+			};
+			buildConfigurationList = BEE5155F1A64E04900837D3E /* Build configuration list for PBXProject "SidebarMenu Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEE5155B1A64E04900837D3E;
+			productRefGroup = BEE515651A64E04900837D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE515631A64E04900837D3E /* SidebarMenu Sample */,
+				BEE5157E1A64E04A00837D3E /* SidebarMenu SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE515621A64E04900837D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5159F1A64E7D000837D3E /* AboutUsViewController.xib in Resources */,
+				BEE515721A64E04900837D3E /* InfoPlist.strings in Resources */,
+				BEE515A41A64E82200837D3E /* TopBarViewController.xib in Resources */,
+				BEE515B51A65084300837D3E /* ReportsViewController.xib in Resources */,
+				BEE515C11A651CEE00837D3E /* AboutDetailsViewController.xib in Resources */,
+				BEE5159A1A64E07200837D3E /* SideBarViewController.xib in Resources */,
+				BEE515BA1A6510CF00837D3E /* GeographicViewController.xib in Resources */,
+				BEE5157A1A64E04900837D3E /* Images.xcassets in Resources */,
+				BEE515AF1A6500E600837D3E /* TentsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5157D1A64E04A00837D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5158B1A64E04A00837D3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE515601A64E04900837D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE515B41A65084300837D3E /* ReportsViewController.m in Sources */,
+				BEE5159E1A64E7D000837D3E /* AboutUsViewController.m in Sources */,
+				BEE515AE1A6500E600837D3E /* TentsViewController.m in Sources */,
+				BEE515A31A64E82200837D3E /* TopBarViewController.m in Sources */,
+				BEE515991A64E07200837D3E /* SideBarViewController.m in Sources */,
+				BEE515781A64E04900837D3E /* AppDelegate.m in Sources */,
+				BEE515AA1A64EF8000837D3E /* SingletonClass.m in Sources */,
+				BEE515B91A6510CF00837D3E /* GeographicViewController.m in Sources */,
+				BEE515741A64E04900837D3E /* main.m in Sources */,
+				BEE515C01A651CEE00837D3E /* AboutDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5157B1A64E04A00837D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5158D1A64E04A00837D3E /* SidebarMenu_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEE515851A64E04A00837D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE515631A64E04900837D3E /* SidebarMenu Sample */;
+			targetProxy = BEE515841A64E04A00837D3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEE515701A64E04900837D3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE515711A64E04900837D3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEE515891A64E04A00837D3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE5158A1A64E04A00837D3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE5158E1A64E04A00837D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE5158F1A64E04A00837D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE515911A64E04A00837D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarMenu Sample/SidebarMenu Sample-Prefix.pch";
+				INFOPLIST_FILE = "SidebarMenu Sample/SidebarMenu Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEE515921A64E04A00837D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarMenu Sample/SidebarMenu Sample-Prefix.pch";
+				INFOPLIST_FILE = "SidebarMenu Sample/SidebarMenu Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEE515941A64E04A00837D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SidebarMenu Sample.app/SidebarMenu Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarMenu Sample/SidebarMenu Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SidebarMenu SampleTests/SidebarMenu SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BEE515951A64E04A00837D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SidebarMenu Sample.app/SidebarMenu Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarMenu Sample/SidebarMenu Sample-Prefix.pch";
+				INFOPLIST_FILE = "SidebarMenu SampleTests/SidebarMenu SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE5155F1A64E04900837D3E /* Build configuration list for PBXProject "SidebarMenu Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE5158E1A64E04A00837D3E /* Debug */,
+				BEE5158F1A64E04A00837D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE515901A64E04A00837D3E /* Build configuration list for PBXNativeTarget "SidebarMenu Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE515911A64E04A00837D3E /* Debug */,
+				BEE515921A64E04A00837D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEE515931A64E04A00837D3E /* Build configuration list for PBXNativeTarget "SidebarMenu SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE515941A64E04A00837D3E /* Debug */,
+				BEE515951A64E04A00837D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE5155C1A64E04900837D3E /* Project object */;
+}
